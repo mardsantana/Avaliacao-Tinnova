@@ -2,11 +2,13 @@ package br.com.tinnova.avalicao_tinnova.desafio5_veiculo.application.api;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
+import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.ToString;
 
 @ToString
 @Getter
+@AllArgsConstructor
 public class VeiculoRequest {
     @NotBlank
     String veiculo;
