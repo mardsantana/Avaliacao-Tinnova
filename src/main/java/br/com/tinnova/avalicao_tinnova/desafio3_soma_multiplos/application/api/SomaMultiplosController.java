@@ -1,5 +1,6 @@
-package br.com.tinnova.avalicao_tinnova.desafio3_soma_multiplos;
+package br.com.tinnova.avalicao_tinnova.desafio3_soma_multiplos.application.api;
 
+import br.com.tinnova.avalicao_tinnova.desafio3_soma_multiplos.application.service.SomaMultiplosService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.log4j.Log4j2;

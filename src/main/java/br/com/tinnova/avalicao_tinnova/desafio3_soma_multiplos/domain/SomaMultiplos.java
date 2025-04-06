@@ -1,4 +1,4 @@
-package br.com.tinnova.avalicao_tinnova.desafio3_soma_multiplos;
+package br.com.tinnova.avalicao_tinnova.desafio3_soma_multiplos.domain;
 
 import lombok.*;
 
