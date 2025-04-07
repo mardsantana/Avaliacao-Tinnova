@@ -19,6 +19,16 @@ spring:
       enabled: true
       path: /h2-console
 
+springdoc:
+  api-docs:
+    path: /v3/api-docs
+  swagger-ui:
+    path: /swagger-ui.html
+    enabled: true
+    operationsSorter: method
+    tagsSorter: alpha
+    display-request-duration: true
+
 logging:
   level:
     root: INFO
